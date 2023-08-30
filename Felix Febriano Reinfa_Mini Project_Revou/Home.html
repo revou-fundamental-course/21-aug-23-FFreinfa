@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My WEB</title>
+
+  <!-- font awesome cdn link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+  <!-- custom css file link -->
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+  <!-- header section starts -->
+  <header class="header">
+
+    <a href="#" class="logo"><img src="images/Fractals 1.jpg"></a>
+
+    <nav class="navbar">
+      <a href="#beranda">Beranda</a>
+      <a href="#facilities">Profil</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+  </header>
+  <!-- header section ends -->
+
+  <!-- home section starts  -->
+  <section class="beranda" id="beranda">
+
+    <div class="image" data-aos="fade-down">
+      <img src="images/Learning.png" alt="">
+    </div>
+
+    <div class="content" data-aos="fade-up">
+      <h3><span id="yourname"></span> Welcome to My Website</h3>
+      <p>I hope you guys enjoy this website</p>
+    </div>
+
+    <script>
+      const element = document.getElementById("yourname");
+      element.innerHTML = "Hi Guys";
+    </script>
+
+  </section>
+
+  <section class="facilities" id="facilities">
+
+    <h1 class="heading"><span>profil</span></h1>
+
+    <div class="box-container">
+
+      <div class="box" data-aos="zoo-in">
+        <span>1</span>
+        <i class="fa fa-snowflake"></i>
+        <h3>Nama</h3>
+        <p>Halo nama saya Felix Febriano Reinfa</p>
+      </div>
+
+      <div class="box" data-aos="zoo-in">
+        <span>2</span>
+        <i class="fa fa-desktop"></i>
+        <h3>Asal Perguruan Tinggi</h3>
+        <p>Universitas Negeri Surabaya</p>
+      </div>
+
+      <div class="box" data-aos="zoo-in">
+        <span>3</span>
+        <i class="fa fa-desktop"></i>
+        <h3>Asal Perguruan Tinggi</h3>
+        <p>Universitas Negeri Surabaya</p>
+      </div>
+
+      <div class="box" data-aos="zoo-in">
+        <span>4</span>
+        <i class="fa fa-book"></i>
+        <h3>Visi</h3>
+        <p>Menjadi web developer professional terpercaya yang juga dapat diandalkan</p>
+      </div>
+
+      <div class="box" data-aos="zoo-in">
+        <span>5</span>
+        <i class="fa fa-book"></i>
+        <h3>Misi</h3>
+        <p>Merancang desain, UI/UX Web yang menarik dan responsif serta user friendly</p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="kontak" id="kontak">
+
+    <h1 class="heading"><span>Kontak</span></h1>
+
+    <form id="formal1" action="" data-aos="zoom">
+
+      <div class="inputBox">
+        <input type="text" name="" id="" placeholder="Nama" data-aos="fade-up">
+        <input type="email" name="" id="" placeholder="Email" data-aos="fade-up">
+      </div>
+
+      <div class="inputBox">
+        <input type="number" name="" id="" placeholder="Nomor Telepon/HP" data-aos="fade-up">
+        <input type="text" name="" id="" placeholder="Subjek" data-aos="fade-up">
+      </div>
+
+      <textarea name="" placeholder="pesan..." id="" cols="30" rows="10" data-aos="fade-up"></textarea>
+
+      <input type="submit" value="send message" class="btn">
+
+    </form>
+
+  </section>
+
+  <section class="footer" id="footer">
+
+    <div class="box-container">
+
+    <div class="credit"> Copyright 2023 <span>Felix Febriano Reinfa</span> | all rights reserved! </div>
+
+  </section>
+
+  <!-- footer section ends -->
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!-- custom js file link -->
+  <script src="js/script.js"></script>
+
+</body>
+</html>
